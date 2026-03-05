@@ -20,7 +20,7 @@ import { DoctorDetail } from "./pages/DoctorDetail";
 import { ScanDetail } from "./pages/ScanDetail";
 import { ClinicDetail } from "./pages/ClinicDetail";
 import { EquipmentDetail } from "./pages/EquipmentDetail";
-import { Profile } from "./pages/Profile"; // استدعاء صفحة البروفايل
+import { Profile } from "./pages/MyProfile"; // استدعاء صفحة البروفايل
 
 // مكون خاص لحماية المسار
 function ProtectedRoute({ component: Component }: { component: React.ComponentType }) {
