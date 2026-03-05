@@ -57,8 +57,8 @@ export default function App() {
               
               {/* المسار المحمي */}
               <Route path="/profile">
-                <ProtectedRoute component={Profile} />
-              </Route>
+                  <ProtectedRoute component={MyProfile} />
+                </Route>
 
               <Route>
                 <Redirect to="/" />
